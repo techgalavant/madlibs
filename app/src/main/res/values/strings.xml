@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Madlibs</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_btn">Email</string>
+    <string name="story_list">Story Choices</string>
+    <string name="username">Username</string>
+    <string name="dialog_title">Update</string>
+    <string name="story_btn1">Story 1</string>
+    <string name="story_btn2">Story 2</string>
+    <string name="story_btn3">Story 3</string>
+    <string name="story_btn4">Story 4</string>
+    <string name="story_btn5">Story 5</string>
+</resources>

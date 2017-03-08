@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.falmi001.madlibs.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome! Start Entering Words Below."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold"
+        android:fontFamily="casual"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/word1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="A Person's Name"
+        android:textStyle="normal|italic"
+        android:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/word2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="A Place"
+        android:textStyle="normal|italic"
+        android:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/word3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="An Action Word"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/word4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="An Object To Sit On"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/word5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="An Amount Of Time"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:id="@+id/mashIt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="See My Crazy Story"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/word7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="An Action"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic"
+        android:layout_above="@+id/mashIt"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/word6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="A Place"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic"
+        android:layout_above="@+id/word7"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
+
+</RelativeLayout>

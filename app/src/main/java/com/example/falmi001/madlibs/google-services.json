@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "866477493714",
+    "firebase_url": "https://crazymadlibs-c15df.firebaseio.com",
+    "project_id": "crazymadlibs-c15df",
+    "storage_bucket": "crazymadlibs-c15df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866477493714:android:e8be376d9feb2415",
+        "android_client_info": {
+          "package_name": "com.example.falmi001.madlibs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866477493714-70pdhko07f9cutbqjjj8fn49hdgoo7vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

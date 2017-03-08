@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Used by StoryPicker. Layout for entering your name and picking a story. -->
+    <ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="What is your name?"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/story_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Story Options"
+        android:fontFamily="casual"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/story_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Story Button 1"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/story_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Story Button 2"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_orange_light" />
+    <Button
+        android:id="@+id/story_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Story Button 3"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_purple" />
+    <Button
+        android:id="@+id/story_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Story Button 4"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_green_light" />
+    <Button
+        android:id="@+id/story_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Story Button 5"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_red_light" />
+</LinearLayout>
+</ScrollView>
