@@ -89,6 +89,7 @@ public class DisplayStory_activity extends AppCompatActivity {
             sendIntent.putExtra(Intent.EXTRA_SUBJECT, "My Crazy Madlibs Story");
             sendIntent.putExtra(Intent.EXTRA_TEXT, intro + story + ending);
             startActivity(Intent.createChooser(sendIntent, "Sharing Options:"));
+            //
 
         }
     });
